@@ -1,0 +1,39 @@
+{
+        "img": "./images/NewYorkSlices.jpeg",
+        "name": "By The Slice",
+        "size": "slice",
+        "flavors": [
+            "Extreme Veggies",
+            "King of Pepp",
+            "Meat Degree",
+            "Hawaii Special"
+        ],
+        "price": "3.00",
+        "description": "We offer our speciality pizza by the slice, always Hot & Ready for $3.00"
+    }
+    {
+        "img": "./images/blackolivepizza.jpeg",
+        "name": "XL Speciality",
+        "size": "Whole Pizza",
+        "flavors": [
+            "XL Extreme Veggies",
+            "XL King of Pepp",
+            "XL Meat Degree",
+            "XL Hawaii Special"
+        ],
+        "price": "31.00",
+        "description":"Our Speciality pizza is one size, order ahead and pick-up for $31.00"
+    }
+    {
+        "img": "./images/shakeups.jpeg",
+        "name": "Shakeups",
+        "size": "one size",
+        "flavors": [
+            "Strawberry",
+            "Grape",
+            "Mango",
+            "Pineapple"
+        ],
+        "price": "3.00",
+        "description": "We have the best shakeups, one size, your choice of flavor, only $3.00"
+    }

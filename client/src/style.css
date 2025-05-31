@@ -1,0 +1,110 @@
+/* this is where I am using my fonts throughout my project */
+.fontOne{
+  font-family: noteworthy, sans-serif;
+}
+.fontTwo{
+  font-family: chalkduster ,serif;
+}
+/* this is targeting my cards */
+.cardColor{
+  background: bisque;
+}
+.fade-container .fade-hover {
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+.fade-container:hover .fade-hover {
+  opacity: 0.3;
+}
+.fade-container:hover .fade-hover:hover {
+  opacity: 1;
+}
+.fade-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* this is my title in my navbar */
+#navTitle{
+  text-shadow: 1px 1px 1px white;
+  font-size: 1.7em
+}
+.navHover:hover{
+  color: black!important
+}
+/* this is where I am using the color for my background */
+ body{
+    background-color: #f2f2e5 
+}
+/* this for the jumbotron background */
+.jumbo{
+  background-color: #f2f2e5 
+}
+/* card color */
+.cardColor{
+  background: bisque;
+}
+/* this is how i got the fading colors on the index page */
+#orderAhead{
+    border-style:dashed;
+    border-width: .1.5em;
+    border-color:green;
+    background: linear-gradient(70deg, rgb(250, 3, 3),bisque,green);
+  background-size: 400% 400%;
+  -webkit-animation: rainbowanim 10s ease infinite;
+  -moz-animation: rainbowanim 10s ease infinite;
+  animation: rainbowanim 10s ease infinite;
+  }
+  @-webkit-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+  }
+  @-moz-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+  }
+  @keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+  }
+
+/* location page */
+
+  #location{
+    background-color: bisque; 
+    border-color: green;
+    border-style: outset;
+    border-width: .5em; 
+    font-size: 2em;
+  }
+  #map{
+    border-color: green;
+    border-style: outset;
+    border-width: .5em; 
+   
+}
+  /* this is my footer */
+
+  /* these are the fontawesome icons */
+  .icons{
+    font-size: 20px;
+    margin-top: .5em;
+  }
+  .footer{
+    text-align: center;
+}  
+/* pizza icon */
+.btn-transparent{
+  background: transparent!important;
+}
+
+ /* this added a margin at the bottom of my find me button  */
+ @media screen and (min-width: 375px) {
+      #findMe {
+        margin-bottom: 1em;
+      }
+    } 
+   
